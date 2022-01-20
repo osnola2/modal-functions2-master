@@ -1,0 +1,223 @@
+test0 [1, 7, 6, 0, 1, 14, 4]
+0 0 1 [0, 0, 0, 1] ( peir ) peir shef xor falsum peir disj nimp
+test1 [1, 7, 6, 0, 1, 14, 4]
+1 1 0 [1, 0, 0, 0] ( falsum ) peir shef xor falsum peir disj nimp
+test2 [1, 7, 6, 0, 1, 14, 4]
+0 1 1 0 1 1 [0, 0, 1, 0] [0, 1, 0, 0] ( shef ) ( xor ) peir shef xor falsum peir disj nimp
+1 0 0 1 1 1 [0, 1, 0, 0] [0, 0, 1, 0] ( xor ) ( shef ) peir shef xor falsum peir disj nimp
+test3 [1, 7, 6, 0, 1, 14, 4]
+0 0 1 1 1 0 [0, 0, 0, 1] [1, 0, 0, 0] ( peir ) ( falsum ) peir shef xor falsum peir disj nimp
+0 1 1 1 1 0 [0, 0, 1, 0] [1, 0, 0, 0] ( shef ) ( falsum ) peir shef xor falsum peir disj nimp
+1 0 1 1 1 0 [0, 1, 0, 0] [1, 0, 0, 0] ( xor ) ( falsum ) peir shef xor falsum peir disj nimp
+test4 [1, 7, 6, 0, 1, 14, 4]
+0 0 0 1 1 0 1 1 1 1 1 0 [0, 0, 0, 1] [0, 0, 1, 0] [0, 1, 0, 0] [1, 0, 0, 0] ( peir ) ( shef ) ( xor ) ( falsum ) peir shef xor falsum peir disj nimp
+0 0 0 1 1 1 1 0 1 1 0 1 [0, 0, 0, 1] [0, 0, 1, 0] [1, 0, 0, 0] [0, 1, 0, 0] ( peir ) ( shef ) ( falsum ) ( xor ) peir shef xor falsum peir disj nimp
+0 1 0 0 1 0 1 1 1 1 1 0 [0, 0, 1, 0] [0, 0, 0, 1] [0, 1, 0, 0] [1, 0, 0, 0] ( shef ) ( peir ) ( xor ) ( falsum ) peir shef xor falsum peir disj nimp
+0 1 0 0 1 1 1 0 1 1 0 1 [0, 0, 1, 0] [0, 0, 0, 1] [1, 0, 0, 0] [0, 1, 0, 0] ( shef ) ( peir ) ( falsum ) ( xor ) peir shef xor falsum peir disj nimp
+0 0 1 0 0 1 1 1 1 1 1 0 [0, 0, 0, 1] [0, 1, 0, 0] [0, 0, 1, 0] [1, 0, 0, 0] ( peir ) ( xor ) ( shef ) ( falsum ) peir shef xor falsum peir disj nimp
+0 0 1 1 0 1 1 0 1 0 1 1 [0, 0, 0, 1] [1, 0, 0, 0] [0, 0, 1, 0] [0, 1, 0, 0] ( peir ) ( falsum ) ( shef ) ( xor ) peir shef xor falsum peir disj nimp
+0 1 1 0 0 0 1 1 1 1 1 0 [0, 0, 1, 0] [0, 1, 0, 0] [0, 0, 0, 1] [1, 0, 0, 0] ( shef ) ( xor ) ( peir ) ( falsum ) peir shef xor falsum peir disj nimp
+0 1 1 1 0 0 1 0 1 0 1 1 [0, 0, 1, 0] [1, 0, 0, 0] [0, 0, 0, 1] [0, 1, 0, 0] ( shef ) ( falsum ) ( peir ) ( xor ) peir shef xor falsum peir disj nimp
+0 0 1 0 1 1 0 1 1 1 0 1 [0, 0, 0, 1] [0, 1, 0, 0] [1, 0, 0, 0] [0, 0, 1, 0] ( peir ) ( xor ) ( falsum ) ( shef ) peir shef xor falsum peir disj nimp
+0 0 1 1 1 0 0 1 1 0 1 1 [0, 0, 0, 1] [1, 0, 0, 0] [0, 1, 0, 0] [0, 0, 1, 0] ( peir ) ( falsum ) ( xor ) ( shef ) peir shef xor falsum peir disj nimp
+0 1 1 0 1 1 0 0 1 1 0 1 [0, 0, 1, 0] [0, 1, 0, 0] [1, 0, 0, 0] [0, 0, 0, 1] ( shef ) ( xor ) ( falsum ) ( peir ) peir shef xor falsum peir disj nimp
+0 1 1 1 1 0 0 0 1 0 1 1 [0, 0, 1, 0] [1, 0, 0, 0] [0, 1, 0, 0] [0, 0, 0, 1] ( shef ) ( falsum ) ( xor ) ( peir ) peir shef xor falsum peir disj nimp
+1 0 0 0 0 1 1 1 1 1 1 0 [0, 1, 0, 0] [0, 0, 0, 1] [0, 0, 1, 0] [1, 0, 0, 0] ( xor ) ( peir ) ( shef ) ( falsum ) peir shef xor falsum peir disj nimp
+1 0 0 1 0 0 1 1 1 1 1 0 [0, 1, 0, 0] [0, 0, 1, 0] [0, 0, 0, 1] [1, 0, 0, 0] ( xor ) ( shef ) ( peir ) ( falsum ) peir shef xor falsum peir disj nimp
+1 1 0 0 0 1 1 0 0 1 1 1 [1, 0, 0, 0] [0, 0, 0, 1] [0, 0, 1, 0] [0, 1, 0, 0] ( falsum ) ( peir ) ( shef ) ( xor ) peir shef xor falsum peir disj nimp
+1 1 0 1 0 0 1 0 0 1 1 1 [1, 0, 0, 0] [0, 0, 1, 0] [0, 0, 0, 1] [0, 1, 0, 0] ( falsum ) ( shef ) ( peir ) ( xor ) peir shef xor falsum peir disj nimp
+1 0 0 0 1 1 0 1 1 1 0 1 [0, 1, 0, 0] [0, 0, 0, 1] [1, 0, 0, 0] [0, 0, 1, 0] ( xor ) ( peir ) ( falsum ) ( shef ) peir shef xor falsum peir disj nimp
+1 0 0 1 1 1 0 0 1 1 0 1 [0, 1, 0, 0] [0, 0, 1, 0] [1, 0, 0, 0] [0, 0, 0, 1] ( xor ) ( shef ) ( falsum ) ( peir ) peir shef xor falsum peir disj nimp
+1 1 0 0 1 0 0 1 0 1 1 1 [1, 0, 0, 0] [0, 0, 0, 1] [0, 1, 0, 0] [0, 0, 1, 0] ( falsum ) ( peir ) ( xor ) ( shef ) peir shef xor falsum peir disj nimp
+1 1 0 1 1 0 0 0 0 1 1 1 [1, 0, 0, 0] [0, 0, 1, 0] [0, 1, 0, 0] [0, 0, 0, 1] ( falsum ) ( shef ) ( xor ) ( peir ) peir shef xor falsum peir disj nimp
+1 0 1 1 0 0 0 1 1 0 1 1 [0, 1, 0, 0] [1, 0, 0, 0] [0, 0, 0, 1] [0, 0, 1, 0] ( xor ) ( falsum ) ( peir ) ( shef ) peir shef xor falsum peir disj nimp
+1 0 1 1 0 1 0 0 1 0 1 1 [0, 1, 0, 0] [1, 0, 0, 0] [0, 0, 1, 0] [0, 0, 0, 1] ( xor ) ( falsum ) ( shef ) ( peir ) peir shef xor falsum peir disj nimp
+1 1 1 0 0 0 0 1 0 1 1 1 [1, 0, 0, 0] [0, 1, 0, 0] [0, 0, 0, 1] [0, 0, 1, 0] ( falsum ) ( xor ) ( peir ) ( shef ) peir shef xor falsum peir disj nimp
+1 1 1 0 0 1 0 0 0 1 1 1 [1, 0, 0, 0] [0, 1, 0, 0] [0, 0, 1, 0] [0, 0, 0, 1] ( falsum ) ( xor ) ( shef ) ( peir ) peir shef xor falsum peir disj nimp
+test5 [1, 7, 6, 0, 1, 14, 4]
+6 6 0 [1, 0, 0, 1] ( nimp ) peir shef xor falsum peir disj nimp
+test6 [1, 7, 6, 0, 1, 14, 4]
+0 9 6 [0, 0, 1, 1] ( peir ) peir shef xor falsum peir disj nimp
+test7 [1, 7, 6, 0, 1, 14, 4]
+6 6 0 [1, 0, 0, 1] ( nimp ) peir shef xor falsum peir disj nimp
+9 9 0 [1, 0, 0, 1] ( nimp ) peir shef xor falsum peir disj nimp
+test8 [1, 7, 6, 0, 1, 14, 4]
+0 0 0 6 1 9 [0, 0, 0, 1] [0, 0, 1, 1] ( peir ) ( peir ) peir shef xor falsum peir disj nimp
+0 0 0 9 1 6 [0, 0, 0, 1] [0, 0, 1, 1] ( peir ) ( peir ) peir shef xor falsum peir disj nimp
+0 0 6 0 1 6 [0, 0, 0, 1] [0, 1, 0, 1] ( peir ) ( disj ) peir shef xor falsum peir disj nimp
+0 0 6 6 1 0 [0, 0, 0, 1] [1, 0, 0, 1] ( peir ) ( nimp ) peir shef xor falsum peir disj nimp
+0 0 6 9 1 6 [0, 0, 0, 1] [0, 1, 1, 0] ( peir ) ( nimp ) peir shef xor falsum peir disj nimp
+0 0 9 0 1 9 [0, 0, 0, 1] [0, 1, 0, 1] ( peir ) ( disj ) peir shef xor falsum peir disj nimp
+0 0 9 6 1 9 [0, 0, 0, 1] [0, 1, 1, 0] ( peir ) ( nimp ) peir shef xor falsum peir disj nimp
+0 0 9 9 1 0 [0, 0, 0, 1] [1, 0, 0, 1] ( peir ) ( nimp ) peir shef xor falsum peir disj nimp
+1 0 1 6 1 0 [0, 1, 0, 0] [1, 1, 0, 0] ( xor ) ( peir ) peir shef xor falsum peir disj nimp
+1 0 1 9 1 0 [0, 1, 0, 0] [1, 1, 0, 0] ( xor ) ( peir ) peir shef xor falsum peir disj nimp
+test9 [1, 7, 6, 0, 1, 14, 4]
+1 1 6 9 0 6 [1, 0, 0, 0] [0, 1, 1, 0] ( falsum ) ( nimp ) peir shef xor falsum peir disj nimp
+1 1 6 1 0 1 [1, 0, 0, 0] [1, 0, 1, 0] ( falsum ) ( disj ) peir shef xor falsum peir disj nimp
+1 1 9 6 0 9 [1, 0, 0, 0] [0, 1, 1, 0] ( falsum ) ( nimp ) peir shef xor falsum peir disj nimp
+1 1 9 1 0 1 [1, 0, 0, 0] [1, 0, 1, 0] ( falsum ) ( disj ) peir shef xor falsum peir disj nimp
+test10 [1, 7, 6, 0, 1, 14, 4]
+0 1 0 9 1 6 [0, 0, 1, 0] [0, 0, 1, 1] ( shef ) ( peir ) peir shef xor falsum peir disj nimp
+0 0 6 0 1 6 [0, 0, 0, 1] [0, 1, 0, 1] ( peir ) ( disj ) peir shef xor falsum peir disj nimp
+0 0 6 6 1 0 [0, 0, 0, 1] [1, 0, 0, 1] ( peir ) ( nimp ) peir shef xor falsum peir disj nimp
+0 1 6 9 1 6 [0, 0, 1, 0] [0, 1, 1, 0] ( shef ) ( nimp ) peir shef xor falsum peir disj nimp
+1 1 9 1 0 1 [1, 0, 0, 0] [1, 0, 1, 0] ( falsum ) ( disj ) peir shef xor falsum peir disj nimp
+1 0 1 6 1 0 [0, 1, 0, 0] [1, 1, 0, 0] ( xor ) ( peir ) peir shef xor falsum peir disj nimp
+test11 [1, 7, 6, 0, 1, 14, 4]
+0 0 6 6 1 0 [0, 0, 0, 1] [1, 0, 0, 1] ( peir ) ( nimp ) peir shef xor falsum peir disj nimp
+0 1 6 6 1 0 [0, 0, 1, 0] [1, 0, 0, 1] ( shef ) ( nimp ) peir shef xor falsum peir disj nimp
+0 0 9 9 1 0 [0, 0, 0, 1] [1, 0, 0, 1] ( peir ) ( nimp ) peir shef xor falsum peir disj nimp
+0 1 9 9 1 0 [0, 0, 1, 0] [1, 0, 0, 1] ( shef ) ( nimp ) peir shef xor falsum peir disj nimp
+1 0 6 6 1 0 [0, 1, 0, 0] [1, 0, 0, 1] ( xor ) ( nimp ) peir shef xor falsum peir disj nimp
+1 1 6 1 0 1 [1, 0, 0, 0] [1, 0, 1, 0] ( falsum ) ( disj ) peir shef xor falsum peir disj nimp
+1 0 9 9 1 0 [0, 1, 0, 0] [1, 0, 0, 1] ( xor ) ( nimp ) peir shef xor falsum peir disj nimp
+1 1 9 1 0 1 [1, 0, 0, 0] [1, 0, 1, 0] ( falsum ) ( disj ) peir shef xor falsum peir disj nimp
+1 0 1 6 1 0 [0, 1, 0, 0] [1, 1, 0, 0] ( xor ) ( peir ) peir shef xor falsum peir disj nimp
+1 0 1 9 1 0 [0, 1, 0, 0] [1, 1, 0, 0] ( xor ) ( peir ) peir shef xor falsum peir disj nimp
+test12 [1, 7, 6, 0, 1, 14, 4]
+0 0 0 6 1 9 [0, 0, 0, 1] [0, 0, 1, 1] ( peir ) ( peir ) peir shef xor falsum peir disj nimp
+0 0 0 9 1 6 [0, 0, 0, 1] [0, 0, 1, 1] ( peir ) ( peir ) peir shef xor falsum peir disj nimp
+0 0 6 0 1 6 [0, 0, 0, 1] [0, 1, 0, 1] ( peir ) ( disj ) peir shef xor falsum peir disj nimp
+0 0 6 9 1 6 [0, 0, 0, 1] [0, 1, 1, 0] ( peir ) ( nimp ) peir shef xor falsum peir disj nimp
+0 1 6 0 1 6 [0, 0, 1, 0] [0, 1, 0, 1] ( shef ) ( disj ) peir shef xor falsum peir disj nimp
+0 0 9 0 1 9 [0, 0, 0, 1] [0, 1, 0, 1] ( peir ) ( disj ) peir shef xor falsum peir disj nimp
+0 0 9 6 1 9 [0, 0, 0, 1] [0, 1, 1, 0] ( peir ) ( nimp ) peir shef xor falsum peir disj nimp
+0 1 9 0 1 9 [0, 0, 1, 0] [0, 1, 0, 1] ( shef ) ( disj ) peir shef xor falsum peir disj nimp
+1 0 0 6 1 9 [0, 1, 0, 0] [0, 0, 1, 1] ( xor ) ( peir ) peir shef xor falsum peir disj nimp
+1 0 0 9 1 6 [0, 1, 0, 0] [0, 0, 1, 1] ( xor ) ( peir ) peir shef xor falsum peir disj nimp
+test13 [1, 7, 6, 0, 1, 14, 4]
+1 1 0 6 0 9 [1, 0, 0, 0] [0, 0, 1, 1] ( falsum ) ( peir ) peir shef xor falsum peir disj nimp
+1 1 0 9 0 6 [1, 0, 0, 0] [0, 0, 1, 1] ( falsum ) ( peir ) peir shef xor falsum peir disj nimp
+1 1 6 0 0 6 [1, 0, 0, 0] [0, 1, 0, 1] ( falsum ) ( disj ) peir shef xor falsum peir disj nimp
+1 1 6 9 0 6 [1, 0, 0, 0] [0, 1, 1, 0] ( falsum ) ( nimp ) peir shef xor falsum peir disj nimp
+1 1 9 0 0 9 [1, 0, 0, 0] [0, 1, 0, 1] ( falsum ) ( disj ) peir shef xor falsum peir disj nimp
+1 1 9 6 0 9 [1, 0, 0, 0] [0, 1, 1, 0] ( falsum ) ( nimp ) peir shef xor falsum peir disj nimp
+test14 [1, 7, 6, 0, 1, 14, 4]
+0 6 1 6 9 0 [0, 0, 1, 1] [1, 1, 0, 0] ( peir ) ( peir ) peir shef xor falsum peir disj nimp
+0 9 1 9 6 0 [0, 0, 1, 1] [1, 1, 0, 0] ( peir ) ( peir ) peir shef xor falsum peir disj nimp
+6 0 6 1 6 1 [0, 1, 0, 1] [1, 0, 1, 0] ( disj ) ( disj ) peir shef xor falsum peir disj nimp
+6 1 6 0 1 6 [1, 0, 1, 0] [0, 1, 0, 1] ( disj ) ( disj ) peir shef xor falsum peir disj nimp
+9 0 9 1 9 1 [0, 1, 0, 1] [1, 0, 1, 0] ( disj ) ( disj ) peir shef xor falsum peir disj nimp
+9 1 9 0 1 9 [1, 0, 1, 0] [0, 1, 0, 1] ( disj ) ( disj ) peir shef xor falsum peir disj nimp
+1 6 0 6 0 9 [1, 1, 0, 0] [0, 0, 1, 1] ( peir ) ( peir ) peir shef xor falsum peir disj nimp
+1 9 0 9 0 6 [1, 1, 0, 0] [0, 0, 1, 1] ( peir ) ( peir ) peir shef xor falsum peir disj nimp
+test15 [1, 7, 6, 0, 1, 14, 4]
+0 6 1 6 9 0 [0, 0, 1, 1] [1, 1, 0, 0] ( peir ) ( peir ) peir shef xor falsum peir disj nimp
+0 6 1 9 9 0 [0, 0, 1, 1] [1, 1, 0, 0] ( peir ) ( peir ) peir shef xor falsum peir disj nimp
+0 9 1 6 6 0 [0, 0, 1, 1] [1, 1, 0, 0] ( peir ) ( peir ) peir shef xor falsum peir disj nimp
+0 9 1 6 6 0 [0, 0, 1, 1] [1, 1, 0, 0] ( peir ) ( peir ) peir shef xor falsum peir disj nimp
+0 9 1 9 6 0 [0, 0, 1, 1] [1, 1, 0, 0] ( peir ) ( peir ) peir shef xor falsum peir disj nimp
+6 0 6 1 6 1 [0, 1, 0, 1] [1, 0, 1, 0] ( disj ) ( disj ) peir shef xor falsum peir disj nimp
+6 6 6 9 0 6 [1, 0, 0, 1] [0, 1, 1, 0] ( nimp ) ( nimp ) peir shef xor falsum peir disj nimp
+6 9 6 6 6 0 [0, 1, 1, 0] [1, 0, 0, 1] ( nimp ) ( nimp ) peir shef xor falsum peir disj nimp
+6 9 6 6 6 0 [0, 1, 1, 0] [1, 0, 0, 1] ( nimp ) ( nimp ) peir shef xor falsum peir disj nimp
+6 1 6 0 1 6 [1, 0, 1, 0] [0, 1, 0, 1] ( disj ) ( disj ) peir shef xor falsum peir disj nimp
+6 0 9 1 6 1 [0, 1, 0, 1] [1, 0, 1, 0] ( disj ) ( disj ) peir shef xor falsum peir disj nimp
+6 6 9 6 0 9 [1, 0, 0, 1] [0, 1, 1, 0] ( nimp ) ( nimp ) peir shef xor falsum peir disj nimp
+6 9 9 9 6 0 [0, 1, 1, 0] [1, 0, 0, 1] ( nimp ) ( nimp ) peir shef xor falsum peir disj nimp
+6 1 9 0 1 9 [1, 0, 1, 0] [0, 1, 0, 1] ( disj ) ( disj ) peir shef xor falsum peir disj nimp
+9 0 6 1 9 1 [0, 1, 0, 1] [1, 0, 1, 0] ( disj ) ( disj ) peir shef xor falsum peir disj nimp
+9 6 6 6 9 0 [0, 1, 1, 0] [1, 0, 0, 1] ( nimp ) ( nimp ) peir shef xor falsum peir disj nimp
+9 9 6 9 0 6 [1, 0, 0, 1] [0, 1, 1, 0] ( nimp ) ( nimp ) peir shef xor falsum peir disj nimp
+9 1 6 0 1 6 [1, 0, 1, 0] [0, 1, 0, 1] ( disj ) ( disj ) peir shef xor falsum peir disj nimp
+9 0 6 1 9 1 [0, 1, 0, 1] [1, 0, 1, 0] ( disj ) ( disj ) peir shef xor falsum peir disj nimp
+9 6 6 6 9 0 [0, 1, 1, 0] [1, 0, 0, 1] ( nimp ) ( nimp ) peir shef xor falsum peir disj nimp
+9 9 6 9 0 6 [1, 0, 0, 1] [0, 1, 1, 0] ( nimp ) ( nimp ) peir shef xor falsum peir disj nimp
+9 1 6 0 1 6 [1, 0, 1, 0] [0, 1, 0, 1] ( disj ) ( disj ) peir shef xor falsum peir disj nimp
+9 0 9 1 9 1 [0, 1, 0, 1] [1, 0, 1, 0] ( disj ) ( disj ) peir shef xor falsum peir disj nimp
+9 6 9 9 9 0 [0, 1, 1, 0] [1, 0, 0, 1] ( nimp ) ( nimp ) peir shef xor falsum peir disj nimp
+9 9 9 6 0 9 [1, 0, 0, 1] [0, 1, 1, 0] ( nimp ) ( nimp ) peir shef xor falsum peir disj nimp
+9 9 9 6 0 9 [1, 0, 0, 1] [0, 1, 1, 0] ( nimp ) ( nimp ) peir shef xor falsum peir disj nimp
+9 1 9 0 1 9 [1, 0, 1, 0] [0, 1, 0, 1] ( disj ) ( disj ) peir shef xor falsum peir disj nimp
+1 6 0 6 0 9 [1, 1, 0, 0] [0, 0, 1, 1] ( peir ) ( peir ) peir shef xor falsum peir disj nimp
+1 6 0 9 0 6 [1, 1, 0, 0] [0, 0, 1, 1] ( peir ) ( peir ) peir shef xor falsum peir disj nimp
+1 9 0 6 0 9 [1, 1, 0, 0] [0, 0, 1, 1] ( peir ) ( peir ) peir shef xor falsum peir disj nimp
+1 9 0 6 0 9 [1, 1, 0, 0] [0, 0, 1, 1] ( peir ) ( peir ) peir shef xor falsum peir disj nimp
+1 9 0 9 0 6 [1, 1, 0, 0] [0, 0, 1, 1] ( peir ) ( peir ) peir shef xor falsum peir disj nimp
+test16 [1, 7, 6, 0, 1, 14, 4]
+6 6 6 9 0 6 [1, 0, 0, 1] [0, 1, 1, 0] ( nimp ) ( nimp ) peir shef xor falsum peir disj nimp
+6 9 6 6 6 0 [0, 1, 1, 0] [1, 0, 0, 1] ( nimp ) ( nimp ) peir shef xor falsum peir disj nimp
+6 6 9 6 0 9 [1, 0, 0, 1] [0, 1, 1, 0] ( nimp ) ( nimp ) peir shef xor falsum peir disj nimp
+6 9 9 9 6 0 [0, 1, 1, 0] [1, 0, 0, 1] ( nimp ) ( nimp ) peir shef xor falsum peir disj nimp
+9 6 6 6 9 0 [0, 1, 1, 0] [1, 0, 0, 1] ( nimp ) ( nimp ) peir shef xor falsum peir disj nimp
+9 9 6 9 0 6 [1, 0, 0, 1] [0, 1, 1, 0] ( nimp ) ( nimp ) peir shef xor falsum peir disj nimp
+9 6 9 9 9 0 [0, 1, 1, 0] [1, 0, 0, 1] ( nimp ) ( nimp ) peir shef xor falsum peir disj nimp
+9 9 9 6 0 9 [1, 0, 0, 1] [0, 1, 1, 0] ( nimp ) ( nimp ) peir shef xor falsum peir disj nimp
+test17 [1, 7, 6, 0, 1, 14, 4]
+0 6 6 0 9 6 [0, 0, 1, 1] [0, 1, 0, 1] ( peir ) ( disj ) peir shef xor falsum peir disj nimp
+0 9 6 0 6 6 [0, 0, 1, 1] [0, 1, 0, 1] ( peir ) ( disj ) peir shef xor falsum peir disj nimp
+0 6 9 0 9 9 [0, 0, 1, 1] [0, 1, 0, 1] ( peir ) ( disj ) peir shef xor falsum peir disj nimp
+0 9 9 0 6 9 [0, 0, 1, 1] [0, 1, 0, 1] ( peir ) ( disj ) peir shef xor falsum peir disj nimp
+6 0 0 6 6 9 [0, 1, 0, 1] [0, 0, 1, 1] ( disj ) ( peir ) peir shef xor falsum peir disj nimp
+6 0 0 9 6 6 [0, 1, 0, 1] [0, 0, 1, 1] ( disj ) ( peir ) peir shef xor falsum peir disj nimp
+9 0 0 6 9 9 [0, 1, 0, 1] [0, 0, 1, 1] ( disj ) ( peir ) peir shef xor falsum peir disj nimp
+9 0 0 9 9 6 [0, 1, 0, 1] [0, 0, 1, 1] ( disj ) ( peir ) peir shef xor falsum peir disj nimp
+test18 [1, 7, 6, 0, 1, 14, 4]
+0 1 0 6 1 1 1 9 0 [0, 0, 1, 0] [0, 0, 1, 1] [1, 0, 0, 0] ( shef ) ( peir ) ( falsum ) peir shef xor falsum peir disj nimp
+0 1 0 9 1 1 1 6 0 [0, 0, 1, 0] [0, 0, 1, 1] [1, 0, 0, 0] ( shef ) ( peir ) ( falsum ) peir shef xor falsum peir disj nimp
+1 1 0 6 0 1 0 9 1 [1, 0, 0, 0] [0, 0, 1, 1] [0, 0, 1, 0] ( falsum ) ( peir ) ( shef ) peir shef xor falsum peir disj nimp
+1 1 0 9 0 1 0 6 1 [1, 0, 0, 0] [0, 0, 1, 1] [0, 0, 1, 0] ( falsum ) ( peir ) ( shef ) peir shef xor falsum peir disj nimp
+1 0 6 0 1 1 1 6 0 [0, 1, 0, 0] [0, 1, 0, 1] [1, 0, 0, 0] ( xor ) ( disj ) ( falsum ) peir shef xor falsum peir disj nimp
+1 1 6 0 1 0 0 6 1 [1, 0, 0, 0] [0, 1, 0, 1] [0, 1, 0, 0] ( falsum ) ( disj ) ( xor ) peir shef xor falsum peir disj nimp
+1 0 9 0 1 1 1 9 0 [0, 1, 0, 0] [0, 1, 0, 1] [1, 0, 0, 0] ( xor ) ( disj ) ( falsum ) peir shef xor falsum peir disj nimp
+1 1 9 0 1 0 0 9 1 [1, 0, 0, 0] [0, 1, 0, 1] [0, 1, 0, 0] ( falsum ) ( disj ) ( xor ) peir shef xor falsum peir disj nimp
+test19 [1, 7, 6, 0, 1, 14, 4]
+0 0 6 6 1 1 1 0 0 [0, 0, 0, 1] [1, 0, 0, 1] [1, 0, 0, 0] ( peir ) ( nimp ) ( falsum ) peir shef xor falsum peir disj nimp
+0 1 6 6 1 1 1 0 0 [0, 0, 1, 0] [1, 0, 0, 1] [1, 0, 0, 0] ( shef ) ( nimp ) ( falsum ) peir shef xor falsum peir disj nimp
+0 1 6 1 1 1 1 1 0 [0, 0, 1, 0] [1, 0, 1, 0] [1, 0, 0, 0] ( shef ) ( disj ) ( falsum ) peir shef xor falsum peir disj nimp
+0 0 9 9 1 1 1 0 0 [0, 0, 0, 1] [1, 0, 0, 1] [1, 0, 0, 0] ( peir ) ( nimp ) ( falsum ) peir shef xor falsum peir disj nimp
+0 1 9 9 1 1 1 0 0 [0, 0, 1, 0] [1, 0, 0, 1] [1, 0, 0, 0] ( shef ) ( nimp ) ( falsum ) peir shef xor falsum peir disj nimp
+0 1 9 1 1 1 1 1 0 [0, 0, 1, 0] [1, 0, 1, 0] [1, 0, 0, 0] ( shef ) ( disj ) ( falsum ) peir shef xor falsum peir disj nimp
+1 1 6 6 0 0 0 0 1 [1, 0, 0, 0] [1, 0, 0, 1] [0, 0, 0, 1] ( falsum ) ( nimp ) ( peir ) peir shef xor falsum peir disj nimp
+1 1 6 6 0 1 0 0 1 [1, 0, 0, 0] [1, 0, 0, 1] [0, 0, 1, 0] ( falsum ) ( nimp ) ( shef ) peir shef xor falsum peir disj nimp
+1 1 6 1 0 1 0 1 1 [1, 0, 0, 0] [1, 0, 1, 0] [0, 0, 1, 0] ( falsum ) ( disj ) ( shef ) peir shef xor falsum peir disj nimp
+1 0 6 6 1 1 1 0 0 [0, 1, 0, 0] [1, 0, 0, 1] [1, 0, 0, 0] ( xor ) ( nimp ) ( falsum ) peir shef xor falsum peir disj nimp
+1 1 6 6 1 0 0 0 1 [1, 0, 0, 0] [1, 0, 0, 1] [0, 1, 0, 0] ( falsum ) ( nimp ) ( xor ) peir shef xor falsum peir disj nimp
+1 1 9 9 0 0 0 0 1 [1, 0, 0, 0] [1, 0, 0, 1] [0, 0, 0, 1] ( falsum ) ( nimp ) ( peir ) peir shef xor falsum peir disj nimp
+1 1 9 9 0 1 0 0 1 [1, 0, 0, 0] [1, 0, 0, 1] [0, 0, 1, 0] ( falsum ) ( nimp ) ( shef ) peir shef xor falsum peir disj nimp
+1 1 9 1 0 1 0 1 1 [1, 0, 0, 0] [1, 0, 1, 0] [0, 0, 1, 0] ( falsum ) ( disj ) ( shef ) peir shef xor falsum peir disj nimp
+1 0 9 9 1 1 1 0 0 [0, 1, 0, 0] [1, 0, 0, 1] [1, 0, 0, 0] ( xor ) ( nimp ) ( falsum ) peir shef xor falsum peir disj nimp
+1 1 9 9 1 0 0 0 1 [1, 0, 0, 0] [1, 0, 0, 1] [0, 1, 0, 0] ( falsum ) ( nimp ) ( xor ) peir shef xor falsum peir disj nimp
+1 0 1 6 1 1 1 0 0 [0, 1, 0, 0] [1, 1, 0, 0] [1, 0, 0, 0] ( xor ) ( peir ) ( falsum ) peir shef xor falsum peir disj nimp
+1 0 1 9 1 1 1 0 0 [0, 1, 0, 0] [1, 1, 0, 0] [1, 0, 0, 0] ( xor ) ( peir ) ( falsum ) peir shef xor falsum peir disj nimp
+1 1 1 6 1 0 0 0 1 [1, 0, 0, 0] [1, 1, 0, 0] [0, 1, 0, 0] ( falsum ) ( peir ) ( xor ) peir shef xor falsum peir disj nimp
+1 1 1 9 1 0 0 0 1 [1, 0, 0, 0] [1, 1, 0, 0] [0, 1, 0, 0] ( falsum ) ( peir ) ( xor ) peir shef xor falsum peir disj nimp
+test20 [1, 7, 6, 0, 1, 14, 4]
+6 4 3 [1, 0, 1, 1] ( xor ) peir shef xor falsum peir disj nimp
+2 9 3 [1, 0, 1, 1] ( xor ) peir shef xor falsum peir disj nimp
+test21 [1, 7, 6, 0, 1, 14, 4]
+test22 [1, 7, 6, 0, 1, 14, 4]
+6 2 6 4 0 3 [0, 1, 1, 1] [1, 0, 1, 1] ( falsum ) ( xor ) peir shef xor falsum peir disj nimp
+6 3 6 5 0 2 [0, 1, 1, 1] [1, 0, 1, 1] ( falsum ) ( xor ) peir shef xor falsum peir disj nimp
+6 5 6 3 2 0 [1, 0, 1, 1] [0, 1, 1, 1] ( xor ) ( falsum ) peir shef xor falsum peir disj nimp
+6 4 6 2 3 0 [1, 0, 1, 1] [0, 1, 1, 1] ( xor ) ( falsum ) peir shef xor falsum peir disj nimp
+2 6 4 6 0 9 [0, 1, 1, 1] [1, 1, 0, 1] ( falsum ) ( shef ) peir shef xor falsum peir disj nimp
+2 5 4 3 6 5 [1, 0, 1, 1] [1, 1, 0, 1] ( xor ) ( shef ) peir shef xor falsum peir disj nimp
+2 9 4 9 3 0 [1, 0, 1, 1] [1, 1, 1, 0] ( xor ) ( peir ) peir shef xor falsum peir disj nimp
+3 6 5 6 0 9 [0, 1, 1, 1] [1, 1, 0, 1] ( falsum ) ( shef ) peir shef xor falsum peir disj nimp
+3 4 5 2 6 4 [1, 0, 1, 1] [1, 1, 0, 1] ( xor ) ( shef ) peir shef xor falsum peir disj nimp
+3 9 5 9 2 0 [1, 0, 1, 1] [1, 1, 1, 0] ( xor ) ( peir ) peir shef xor falsum peir disj nimp
+5 6 3 6 9 0 [1, 1, 0, 1] [0, 1, 1, 1] ( shef ) ( falsum ) peir shef xor falsum peir disj nimp
+5 2 3 4 4 6 [1, 1, 0, 1] [1, 0, 1, 1] ( shef ) ( xor ) peir shef xor falsum peir disj nimp
+5 9 3 9 0 2 [1, 1, 1, 0] [1, 0, 1, 1] ( peir ) ( xor ) peir shef xor falsum peir disj nimp
+4 6 2 6 9 0 [1, 1, 0, 1] [0, 1, 1, 1] ( shef ) ( falsum ) peir shef xor falsum peir disj nimp
+4 3 2 5 5 6 [1, 1, 0, 1] [1, 0, 1, 1] ( shef ) ( xor ) peir shef xor falsum peir disj nimp
+4 9 2 9 0 3 [1, 1, 1, 0] [1, 0, 1, 1] ( peir ) ( xor ) peir shef xor falsum peir disj nimp
+9 2 9 4 4 0 [1, 1, 0, 1] [1, 1, 1, 0] ( shef ) ( peir ) peir shef xor falsum peir disj nimp
+9 3 9 5 5 0 [1, 1, 0, 1] [1, 1, 1, 0] ( shef ) ( peir ) peir shef xor falsum peir disj nimp
+9 5 9 3 0 5 [1, 1, 1, 0] [1, 1, 0, 1] ( peir ) ( shef ) peir shef xor falsum peir disj nimp
+9 4 9 2 0 4 [1, 1, 1, 0] [1, 1, 0, 1] ( peir ) ( shef ) peir shef xor falsum peir disj nimp
+test23 [1, 7, 6, 0, 1, 14, 4]
+6 5 9 2 2 4 [1, 0, 1, 1] [1, 1, 0, 1] ( xor ) ( shef ) peir shef xor falsum peir disj nimp
+6 4 9 3 3 5 [1, 0, 1, 1] [1, 1, 0, 1] ( xor ) ( shef ) peir shef xor falsum peir disj nimp
+2 5 5 2 6 4 [1, 0, 1, 1] [1, 1, 0, 1] ( xor ) ( shef ) peir shef xor falsum peir disj nimp
+2 9 5 6 3 9 [1, 0, 1, 1] [1, 1, 0, 1] ( xor ) ( shef ) peir shef xor falsum peir disj nimp
+3 4 4 3 6 5 [1, 0, 1, 1] [1, 1, 0, 1] ( xor ) ( shef ) peir shef xor falsum peir disj nimp
+3 9 4 6 2 9 [1, 0, 1, 1] [1, 1, 0, 1] ( xor ) ( shef ) peir shef xor falsum peir disj nimp
+5 6 2 9 9 3 [1, 1, 0, 1] [1, 0, 1, 1] ( shef ) ( xor ) peir shef xor falsum peir disj nimp
+5 2 2 5 4 6 [1, 1, 0, 1] [1, 0, 1, 1] ( shef ) ( xor ) peir shef xor falsum peir disj nimp
+4 6 3 9 9 2 [1, 1, 0, 1] [1, 0, 1, 1] ( shef ) ( xor ) peir shef xor falsum peir disj nimp
+4 3 3 4 5 6 [1, 1, 0, 1] [1, 0, 1, 1] ( shef ) ( xor ) peir shef xor falsum peir disj nimp
+9 2 6 5 4 2 [1, 1, 0, 1] [1, 0, 1, 1] ( shef ) ( xor ) peir shef xor falsum peir disj nimp
+9 3 6 4 5 3 [1, 1, 0, 1] [1, 0, 1, 1] ( shef ) ( xor ) peir shef xor falsum peir disj nimp
