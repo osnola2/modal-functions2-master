@@ -4,7 +4,7 @@ import time
 
 t0 = time.time()
 
-shef_complete = open('Shef_complete_13b.txt', 'w+')
+shef_complete = open('Shef_complete_test_1.txt', 'w+')
 
 for i2 in candidate2:
     for i3 in candidate3:
